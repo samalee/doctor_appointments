@@ -1,0 +1,8 @@
+<h1>Add a New Physician</h1>
+
+<%= form_for @physician do |a| %>
+<%= a.label :name %>
+<%= a.text_field :name %><br><br>
+<%= a.submit %>
+
+<% end %>
